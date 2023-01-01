@@ -1,3 +1,4 @@
+import AddTask from "../Pages/AddTask/AddTask";
 import Home from "../Pages/Home/Home";
 import LogIn from "../Pages/LogIn/LogIn";
 import Register from "../Pages/Register/Register";
@@ -13,6 +14,10 @@ const routes = createBrowserRouter([
             {
                 path: '/',
                 element: <Home />
+            },
+            {
+                path: '/add-task',
+                element: <AddTask />
             },
             {
                 path: '/login',

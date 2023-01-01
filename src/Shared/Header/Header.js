@@ -41,7 +41,7 @@ const Header = () => {
                     >
                         Home
                     </Link>
-                    <Link to="/navbars" className='font-semibold text-lg'>
+                    <Link to="/add-task" className='font-semibold text-lg'>
                         Add Task
                     </Link>
                     <Link to="/navbars" className='font-semibold text-lg'>
