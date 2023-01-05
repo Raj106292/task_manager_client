@@ -8,7 +8,7 @@ const Home = () => {
             <div className="">
                 <div className="dark:bg-violet-400">
                     <div className="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 bg-slate-200 dark:text-gray-900">
-                        <h1 className="text-5xl font-bold leading-none sm:text-6xl xl:max-w-3xl dark:text-gray-900">Welcome to the Task Manager App, 2022</h1>
+                        <h1 className="text-5xl font-bold leading-none sm:text-6xl xl:max-w-3xl dark:text-gray-900">Welcome to the Task Manager App, 2023</h1>
                         <p className="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl dark:text-gray-900">Hello User. It's a task management app where you can add your task and can show your all tasks and completed task.</p>
                         <div className="flex flex-wrap justify-center">
                             <Link to='/navbars'><button type="button" className="px-8 py-3 m-2 text-lg font-semibold rounded bg-blue-700 text-white dark:bg-gray-800 dark:text-gray-50">Add Task</button></Link>
